@@ -34,6 +34,7 @@ const saveGreeting = async (message) => {
 };
 
 const getGreetingsByUser = async (user) => {
+    console.log("Getting new message")
     const otherQuery = {
         query: `
             {
